@@ -79,10 +79,10 @@ The simpel model shows a better perfomance in both accuracy and convergence spee
 
 ## Error Analysis Summary:
 
-## Confusion Matrix graphs ()
-![model1](https://github.com/user-attachments/assets/0882bf34-8b05-4b13-aa19-152c3dba397b)
-![moel2](https://github.com/user-attachments/assets/b5492090-bf67-428f-9302-f964af596f82)
-![model3](https://github.com/user-attachments/assets/6f53e97c-2116-45d0-b31d-dedcd62b96fb)
+## Confusion Matrix graphs 
+<img src="https://github.com/user-attachments/assets/0882bf34-8b05-4b13-aa19-152c3dba397b" width="300"/>
+<img src="https://github.com/user-attachments/assets/b5492090-bf67-428f-9302-f964af596f82" width="300"/>
+<img src="https://github.com/user-attachments/assets/6f53e97c-2116-45d0-b31d-dedcd62b96fb" width="300"/>
 
 ### Simple Model:
 - **Strengths:**
