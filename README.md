@@ -10,7 +10,7 @@ The dataset used for this project is a publicly available dataset for tomato dis
 
 ## Project Structure
 
-Tomato_Disease_Classification/ ├── notebook.ipynb ├── saved_models/ │ ├── simple_model.pkl │ ├── optimized_model.pkl └── README.md
+Tomato_Disease_Classification/ ├── notebook.ipynb ├── saved_models/ │ ├── model1.pkl │ ├── model2.pkl └── README.md
 
 ### Model Architecture
 ## Input Layer:
@@ -79,8 +79,12 @@ The simpel model shows a better perfomance in both accuracy and convergence spee
 
 ## Error Analysis Summary:
 
+## Confusion Matrix graphs ()
+![model1](https://github.com/user-attachments/assets/0882bf34-8b05-4b13-aa19-152c3dba397b)
+![moel2](https://github.com/user-attachments/assets/b5492090-bf67-428f-9302-f964af596f82)
+![model3](https://github.com/user-attachments/assets/6f53e97c-2116-45d0-b31d-dedcd62b96fb)
 
-### Model 1:
+### Simple Model:
 - **Strengths:**
   - Better at identifying **Early Blight**, with fewer misclassifications for this class.
 - **Weaknesses:**
@@ -88,7 +92,7 @@ The simpel model shows a better perfomance in both accuracy and convergence spee
   - Significant misclassification of multiple diseases as **Tomato Mosaic Virus**.
   - Requires feature improvement or fine-tuning to capture virus-specific features.
 
-### Model 2:
+### First Optimized Model:
 - **Strengths:**
   - Improved classification of **Target Spot** with fewer misclassifications.
   - Better at distinguishing **Septoria Leaf Spot** compared to Model 1.
@@ -96,7 +100,7 @@ The simpel model shows a better perfomance in both accuracy and convergence spee
   - High confusion between **Early Blight** and **Septoria Leaf Spot**.
   - Still suffers from **Tomato Mosaic Virus** misclassification, but less than Model 1.
 
-### Model 3 (Best Performing Model):
+### Second Optimized Model(Best Performing Model):
 - **Strengths:**
   - Most balanced performance overall with fewer misclassifications across all categories.
   - Clear improvement in distinguishing **Tomato Mosaic Virus** from other diseases.
